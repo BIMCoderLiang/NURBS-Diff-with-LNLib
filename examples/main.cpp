@@ -278,7 +278,7 @@ void SurfaceFitting(vtkSmartPointer<vtkRenderer> renderer)
     torch::optim::Adam optimizer({inp_ctrl_pts}, torch::optim::AdamOptions(0.01));
 
     std::cout << "start training" << std::endl;
-    for (int epoch = 0; epoch < 5000; ++epoch) {
+    for (int epoch = 0; epoch < 10000; ++epoch) {
         optimizer.zero_grad();
         
         auto weights = torch::ones({1, num_ctrl_pts_u, num_ctrl_pts_v, 1});

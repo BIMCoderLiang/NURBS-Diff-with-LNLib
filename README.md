@@ -9,8 +9,8 @@
 ## Visualization
 We use [VTK](https://vtk.org/) to visualize NURBS fitting curve and surface.
 
-<img src="images/nurbs curve fitting.jpg" width=800 height=400>
-
+<img src="assets/nurbs curve fitting.jpg" width=800 height=400>
+<img src="assets/nurbs surface fitting.png" width=800 height=400>
 
 ## Contributing
 Welcome join this project including discussions in **Issues** and make **Pull requests**.
