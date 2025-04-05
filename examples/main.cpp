@@ -287,7 +287,7 @@ void SurfaceFitting(vtkSmartPointer<vtkRenderer> renderer)
         auto output = sm.forward(input);
         output = output.reshape({ 1, num_eval_pts_u * num_eval_pts_v, 3 });
 
-        // º∆À„À ß
+        // calculate loss
         torch::Tensor loss = ((target_tensor - output).pow(2)).mean();
         
         loss.backward();
