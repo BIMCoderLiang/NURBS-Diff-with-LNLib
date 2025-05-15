@@ -28,4 +28,4 @@ The source code is published under [GNU General Public License v3.0](https://www
 ## Primary Reference
 - [NURBS-Diff Article](https://www.sciencedirect.com/science/article/abs/pii/S0010448522000045)
 - [NURBS-Diff open source codes on Github (BSD-3-Clause)](https://github.com/anjanadev96/NURBS_Diff)
-- [LNLib on Github (GPL-3.0)](https://github.com/BIMCoderLiang/LNLib)
+- [LNLib on Github (LGPL-2.1)](https://github.com/BIMCoderLiang/LNLib)
